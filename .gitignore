@@ -1,0 +1,123 @@
+# 模型权重文件（通常很大，不应该提交到Git）
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.tflite
+
+# 模型文件索引
+model.safetensors.index.json
+pytorch_model.bin.index.json
+
+# 图片文件（不跟踪）
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.svg
+*.ico
+*.raw
+
+# 视频文件
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.webm
+
+# 数据集文件
+*.csv
+*.tsv
+*.parquet
+*.arrow
+*.feather
+*.hdf5
+*.h5
+
+# 压缩文件
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 日志文件
+*.log
+logs/
+wandb/
+tensorboard/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+.Zone.Identifier
+
+# 但保留配置文件
+!Output_Models/*/config.json
+!Output_Models/*/tokenizer*.json
+!Output_Models/*/generation_config.json
+!Output_Models/*/preprocessor_config.json
+!Output_Models/*/processor_config.json
+!Output_Models/*/chat_template.json
+!Output_Models/*/README.md
+!Output_Models/*/LICENSE
+!Output_Models/*/merges.txt
+!Output_Models/*/vocab.json
+!Output_Models/*/special_tokens_map.json
+!Output_Models/*/added_tokens.json
