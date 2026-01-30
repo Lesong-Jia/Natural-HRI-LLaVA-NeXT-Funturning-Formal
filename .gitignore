@@ -107,6 +107,7 @@ tensorboard/
 *.backup
 *~
 .Zone.Identifier
+*:Zone.Identifier
 
 # 但保留配置文件
 !Output_Models/*/config.json
