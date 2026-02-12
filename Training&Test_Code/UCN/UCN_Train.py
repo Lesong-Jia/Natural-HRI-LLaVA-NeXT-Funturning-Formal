@@ -38,10 +38,10 @@ from peft import (
 os.environ["WANDB_DISABLED"] = "true"
 
 BASE_MODEL_PATH = "/home/lesong_llava/Natural-HRI-LLaVA-NeXT-Funturning-Formal/Output_Models/llava-next-interleave-qwen-7b"
-DATA_PATH = "/home/lesong_llava/Test_Stage_Archive/Lesong_Model/Formal/UHN/llava_lora_dataset_UHN.jsonl"
+DATA_PATH = "/home/lesong_llava/Natural-HRI-LLaVA-NeXT-Funturning-Formal/Training&Test_Code/UCN/llava_lora_dataset_UCN.jsonl"
 
-BASE_OUTPUT_DIR = "/home/lesong_llava/Test_Stage_Archive/models/UHN_V2"
-TEST_DATA_DIR = "/home/lesong_llava/Test_Stage_Archive/Lesong_Model/Formal/UHN/Test_Data_V2"
+BASE_OUTPUT_DIR = "/home/lesong_llava/Natural-HRI-LLaVA-NeXT-Funturning-Formal/Output_Models/UCN"
+TEST_DATA_DIR = "/home/lesong_llava/Natural-HRI-LLaVA-NeXT-Funturning-Formal/Training&Test_Code/UCN/Test_Data"
 
 SEED = 42
 MAX_IMAGES = 15

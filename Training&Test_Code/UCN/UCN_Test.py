@@ -32,15 +32,15 @@ from peft import PeftModel
 # =========================
 # Config
 # =========================
-BASE_MODEL_PATH = "/home/lesong_llava/models/llava-next-interleave-qwen-7b"
+BASE_MODEL_PATH = "/home/lesong_llava/Natural-HRI-LLaVA-NeXT-Funturning-Formal/Output_Models/llava-next-interleave-qwen-7b"
 
 # 5-fold CV paths
-BASE_OUTPUT_DIR = "/home/lesong_llava/models/UHN_V2"
-TEST_DATA_DIR = "/home/lesong_llava/LLaVA-NeXT/Lesong_Model/Formal/UHN/Test_Data_V2"
-OUT_CSV_PATH = "/home/lesong_llava/LLaVA-NeXT/Lesong_Model/Formal/UHN/eval_results_5fold_UHN_V3.csv"
+BASE_OUTPUT_DIR = "/home/lesong_llava/Natural-HRI-LLaVA-NeXT-Funturning-Formal/Output_Models/UCN"
+TEST_DATA_DIR = "/home/lesong_llava/Natural-HRI-LLaVA-NeXT-Funturning-Formal/Training&Test_Code/UCN/Test_Data"
+OUT_CSV_PATH = "/home/lesong_llava/Natural-HRI-LLaVA-NeXT-Funturning-Formal/Training&Test_Code/UCN/eval_results_5fold_UCN_V3.csv"
 
 # Original dataset jsonl (for base_dir of images/gaze relpaths)
-DATA_PATH = "/home/lesong_llava/LLaVA-NeXT/Lesong_Model/Formal/UHN/llava_lora_dataset_UHN.jsonl"
+DATA_PATH = "/home/lesong_llava/Natural-HRI-LLaVA-NeXT-Funturning-Formal/Training&Test_Code/UCN/llava_lora_dataset_UCN.jsonl"
 
 N_FOLDS = 5
 
